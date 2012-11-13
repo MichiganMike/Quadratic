@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		280E38C316426736008E5B05 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 280E38C216426736008E5B05 /* icon.icns */; };
+		28A0ACED14AEFDE600953DCB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28A0ACEC14AEFDE600953DCB /* Cocoa.framework */; };
+		28A0ACF714AEFDE600953DCB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28A0ACF514AEFDE600953DCB /* InfoPlist.strings */; };
+		28A0ACF914AEFDE600953DCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A0ACF814AEFDE600953DCB /* main.m */; };
+		28A0ACFD14AEFDE600953DCB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 28A0ACFB14AEFDE600953DCB /* Credits.rtf */; };
+		28A0AD0014AEFDE600953DCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A0ACFF14AEFDE600953DCB /* AppDelegate.m */; };
+		28A0AD0314AEFDE600953DCB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28A0AD0114AEFDE600953DCB /* MainMenu.xib */; };
+		28A0AD0D14AEFE6900953DCB /* simpleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A0AD0C14AEFE6900953DCB /* simpleController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		280E38C216426736008E5B05 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		28A0ACE814AEFDE600953DCB /* Quadratic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quadratic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28A0ACEC14AEFDE600953DCB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		28A0ACEF14AEFDE600953DCB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		28A0ACF014AEFDE600953DCB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		28A0ACF114AEFDE600953DCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		28A0ACF414AEFDE600953DCB /* Quadratic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Quadratic-Info.plist"; sourceTree = "<group>"; };
+		28A0ACF614AEFDE600953DCB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28A0ACF814AEFDE600953DCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28A0ACFA14AEFDE600953DCB /* Quadratic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quadratic-Prefix.pch"; sourceTree = "<group>"; };
+		28A0ACFC14AEFDE600953DCB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		28A0ACFE14AEFDE600953DCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28A0ACFF14AEFDE600953DCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28A0AD0214AEFDE600953DCB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		28A0AD0B14AEFE6900953DCB /* simpleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = simpleController.h; sourceTree = "<group>"; };
+		28A0AD0C14AEFE6900953DCB /* simpleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = simpleController.m; sourceTree = "<group>"; };
+		28ADC0B115F0C0A200D62DAC /* Quadratic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Quadratic.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28A0ACE514AEFDE600953DCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A0ACED14AEFDE600953DCB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28A0ACDD14AEFDE600953DCB = {
+			isa = PBXGroup;
+			children = (
+				280E38C216426736008E5B05 /* icon.icns */,
+				28A0ACF214AEFDE600953DCB /* Quadratic */,
+				28A0ACEB14AEFDE600953DCB /* Frameworks */,
+				28A0ACE914AEFDE600953DCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28A0ACE914AEFDE600953DCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28A0ACE814AEFDE600953DCB /* Quadratic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28A0ACEB14AEFDE600953DCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28A0ACEC14AEFDE600953DCB /* Cocoa.framework */,
+				28A0ACEE14AEFDE600953DCB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28A0ACEE14AEFDE600953DCB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28A0ACEF14AEFDE600953DCB /* AppKit.framework */,
+				28A0ACF014AEFDE600953DCB /* CoreData.framework */,
+				28A0ACF114AEFDE600953DCB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		28A0ACF214AEFDE600953DCB /* Quadratic */ = {
+			isa = PBXGroup;
+			children = (
+				28ADC0B115F0C0A200D62DAC /* Quadratic.entitlements */,
+				28A0ACFE14AEFDE600953DCB /* AppDelegate.h */,
+				28A0ACFF14AEFDE600953DCB /* AppDelegate.m */,
+				28A0AD0114AEFDE600953DCB /* MainMenu.xib */,
+				28A0AD0B14AEFE6900953DCB /* simpleController.h */,
+				28A0AD0C14AEFE6900953DCB /* simpleController.m */,
+				28A0ACF314AEFDE600953DCB /* Supporting Files */,
+			);
+			path = Quadratic;
+			sourceTree = "<group>";
+		};
+		28A0ACF314AEFDE600953DCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28A0ACF414AEFDE600953DCB /* Quadratic-Info.plist */,
+				28A0ACF514AEFDE600953DCB /* InfoPlist.strings */,
+				28A0ACF814AEFDE600953DCB /* main.m */,
+				28A0ACFA14AEFDE600953DCB /* Quadratic-Prefix.pch */,
+				28A0ACFB14AEFDE600953DCB /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28A0ACE714AEFDE600953DCB /* Quadratic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28A0AD0614AEFDE600953DCB /* Build configuration list for PBXNativeTarget "Quadratic" */;
+			buildPhases = (
+				28A0ACE414AEFDE600953DCB /* Sources */,
+				28A0ACE514AEFDE600953DCB /* Frameworks */,
+				28A0ACE614AEFDE600953DCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quadratic;
+			productName = Quadratic;
+			productReference = 28A0ACE814AEFDE600953DCB /* Quadratic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28A0ACDF14AEFDE600953DCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 28A0ACE214AEFDE600953DCB /* Build configuration list for PBXProject "Quadratic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 28A0ACDD14AEFDE600953DCB;
+			productRefGroup = 28A0ACE914AEFDE600953DCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28A0ACE714AEFDE600953DCB /* Quadratic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28A0ACE614AEFDE600953DCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A0ACF714AEFDE600953DCB /* InfoPlist.strings in Resources */,
+				28A0ACFD14AEFDE600953DCB /* Credits.rtf in Resources */,
+				28A0AD0314AEFDE600953DCB /* MainMenu.xib in Resources */,
+				280E38C316426736008E5B05 /* icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28A0ACE414AEFDE600953DCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A0ACF914AEFDE600953DCB /* main.m in Sources */,
+				28A0AD0014AEFDE600953DCB /* AppDelegate.m in Sources */,
+				28A0AD0D14AEFE6900953DCB /* simpleController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		28A0ACF514AEFDE600953DCB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28A0ACF614AEFDE600953DCB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		28A0ACFB14AEFDE600953DCB /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28A0ACFC14AEFDE600953DCB /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		28A0AD0114AEFDE600953DCB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28A0AD0214AEFDE600953DCB /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28A0AD0414AEFDE600953DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		28A0AD0514AEFDE600953DCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		28A0AD0714AEFDE600953DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Quadratic/Quadratic-Prefix.pch";
+				INFOPLIST_FILE = "Quadratic/Quadratic-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		28A0AD0814AEFDE600953DCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Quadratic/Quadratic-Prefix.pch";
+				INFOPLIST_FILE = "Quadratic/Quadratic-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28A0ACE214AEFDE600953DCB /* Build configuration list for PBXProject "Quadratic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28A0AD0414AEFDE600953DCB /* Debug */,
+				28A0AD0514AEFDE600953DCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28A0AD0614AEFDE600953DCB /* Build configuration list for PBXNativeTarget "Quadratic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28A0AD0714AEFDE600953DCB /* Debug */,
+				28A0AD0814AEFDE600953DCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28A0ACDF14AEFDE600953DCB /* Project object */;
+}
