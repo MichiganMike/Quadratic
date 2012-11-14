@@ -1,4 +1,4 @@
-# Quadratic <img src="Quadratic.icon.png" alt="Quadratic Logo" title="Quadratic Logo" width="100"> #
+# Quadratic <img src="https://github.com/Druid-of-Luhn/Quadratic/blob/master/Quadratic.icon.png?raw=true" alt="Quadratic Logo" title="Quadratic Logo" width="100"> #
 
 Quadratic is a small Objective-C application that solves quadratic equations (ax<sup>2</sup> + bx + c = 0)
 and gives you additional information about the equation.
